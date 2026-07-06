@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<style>
+  @page { size: A4; margin: 0; }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 11px;
+    color: #1a1a1a;
+    background: #fff;
+    width: 210mm;
+    padding: 12mm 15mm;
+  }
+  .header {
+    text-align: center;
+    border-bottom: 3px double #1a4d8f;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+  }
+  .header h1 {
+    font-size: 20px;
+    color: #1a4d8f;
+    letter-spacing: 2px;
+  }
+  .header .subtitle {
+    font-size: 10px;
+    color: #555;
+    margin-top: 2px;
+  }
+  .header .accreditation {
+    font-size: 8px;
+    color: #888;
+    margin-top: 4px;
+  }
+  .patient-info {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    padding: 8px 10px;
+    font-size: 10px;
+  }
+  .patient-info .col {
+    flex: 1;
+    min-width: 45%;
+  }
+  .patient-info .row {
+    margin: 2px 0;
+  }
+  .patient-info .label {
+    font-weight: bold;
+    color: #333;
+    display: inline-block;
+    width: 110px;
+  }
+  .report-title {
+    background: #1a4d8f;
+    color: #fff;
+    text-align: center;
+    padding: 5px;
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin: 10px 0 5px 0;
+  }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 8px;
+  }
+  th {
+    background: #e8eef5;
+    color: #1a4d8f;
+    padding: 5px 8px;
+    text-align: left;
+    font-size: 10px;
+    border: 1px solid #bbb;
+  }
+  td {
+    padding: 4px 8px;
+    border: 1px solid #ccc;
+    font-size: 10px;
+  }
+  tr:nth-child(even) {
+    background: #f9fbfe;
+  }
+  .abnormal {
+    color: #c0392b;
+    font-weight: bold;
+  }
+  .flag-high::after {
+    content: " ↑H";
+    color: #c0392b;
+    font-weight: bold;
+    font-size: 9px;
+  }
+  .flag-low::after {
+    content: " ↓L";
+    color: #2980b9;
+    font-weight: bold;
+    font-size: 9px;
+  }
+  .footer {
+    margin-top: 15px;
+    border-top: 1px solid #ccc;
+    padding-top: 8px;
+    font-size: 9px;
+    color: #666;
+  }
+  .footer .signature {
+    margin-top: 20px;
+    text-align: right;
+  }
+  .footer .signature .name {
+    font-weight: bold;
+    color: #1a4d8f;
+    font-size: 11px;
+  }
+</style>
+</head>
+<body>
+  <div class="header">
+    <h1>{{ lab_name }}</h1>
+    <div class="subtitle">{{ lab_address }}</div>
+    <div class="accreditation">{{ lab_accreditation }}</div>
+  </div>
+
+  <div class="patient-info">
+    <div class="col">
+      <div class="row"><span class="label">Patient Name:</span> {{ patient_name }}</div>
+      <div class="row"><span class="label">Age / Gender:</span> {{ patient_age }} Yrs / {{ patient_gender }}</div>
+      <div class="row"><span class="label">Patient ID:</span> {{ patient_id }}</div>
+    </div>
+    <div class="col">
+      <div class="row"><span class="label">Referred By:</span> {{ referred_by }}</div>
+      <div class="row"><span class="label">Sample Collected:</span> {{ sample_date }}</div>
+      <div class="row"><span class="label">Report Date:</span> {{ report_date }}</div>
+    </div>
+  </div>
+
+  <div class="report-title">{{ report_type_title }}</div>
+
+  <table>
+    <thead>
+      <tr>
+        <th>Test Name</th>
+        <th>Result</th>
+        <th>Unit</th>
+        <th>Reference Range</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for row in test_rows %}
+      <tr>
+        <td>{{ row.test_name }}</td>
+        <td class="{{ row.flag_class }}">{{ row.value }}</td>
+        <td>{{ row.unit }}</td>
+        <td>{{ row.reference_range }}</td>
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+
+  <div class="footer">
+    <p><strong>Method:</strong> {{ method }}</p>
+    <p><strong>Sample Type:</strong> {{ sample_type }}</p>
+    <p style="margin-top: 5px; font-size: 8px;">* This report is electronically generated and does not require a signature.</p>
+    <div class="signature">
+      <div class="name">{{ pathologist_name }}</div>
+      <div>{{ pathologist_qualification }}</div>
+      <div>Consultant Pathologist</div>
+    </div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,4 @@
+# Ground truth for prescription OCR & extraction evaluation.
+# Columns: image_file, drug_name, dosage, frequency, raw_text_gt
+# To be filled manually or semi-automatically as labeled data is created.
+image_file,drug_name,dosage,frequency,raw_text_gt

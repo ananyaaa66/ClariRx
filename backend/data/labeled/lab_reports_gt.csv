@@ -1,0 +1,111 @@
+image_file,report_type,test_name,value,unit,normal_range_low,normal_range_high,is_abnormal
+cbc_0001.html,CBC,Haemoglobin (Hb),17.2,g/dL,13.0,17.0,True
+cbc_0001.html,CBC,RBC Count,4.97,million/µL,4.5,5.5,False
+cbc_0001.html,CBC,WBC Count (TLC),6788,cells/µL,4000,11000,False
+cbc_0001.html,CBC,Platelet Count,2.71,lakhs/µL,1.5,4.0,False
+cbc_0001.html,CBC,PCV / Hematocrit,44.9,%,40,50,False
+cbc_0001.html,CBC,MCV,89.0,fL,80,100,False
+cbc_0001.html,CBC,MCH,30.4,pg,27,32,False
+cbc_0001.html,CBC,MCHC,32.6,g/dL,32,36,False
+cbc_0001.html,CBC,RDW-CV,12.3,%,11.5,14.5,False
+cbc_0001.html,CBC,Neutrophils,63,%,40,70,False
+cbc_0001.html,CBC,Lymphocytes,34,%,20,40,False
+cbc_0001.html,CBC,Monocytes,4,%,2,8,False
+cbc_0001.html,CBC,Eosinophils,1,%,1,4,False
+cbc_0001.html,CBC,Basophils,0,%,0,1,False
+cbc_0001.html,CBC,ESR,18,mm/hr,0,15,True
+lipid_0002.html,LIPID,Total Cholesterol,223,mg/dL,0,200,True
+lipid_0002.html,LIPID,Triglycerides,173,mg/dL,0,150,True
+lipid_0002.html,LIPID,HDL Cholesterol,69,mg/dL,50,70,False
+lipid_0002.html,LIPID,LDL Cholesterol,131,mg/dL,0,100,True
+lipid_0002.html,LIPID,VLDL Cholesterol,33,mg/dL,5,40,False
+lipid_0002.html,LIPID,Total Cholesterol / HDL Ratio,4.2,,0,5.0,False
+lipid_0002.html,LIPID,LDL / HDL Ratio,3.1,,0,3.5,False
+cbc_0003.html,CBC,Haemoglobin (Hb),13.3,g/dL,12.0,15.5,False
+cbc_0003.html,CBC,RBC Count,4.27,million/µL,3.8,4.8,False
+cbc_0003.html,CBC,WBC Count (TLC),6188,cells/µL,4000,11000,False
+cbc_0003.html,CBC,Platelet Count,2.42,lakhs/µL,1.5,4.0,False
+cbc_0003.html,CBC,PCV / Hematocrit,31.4,%,36,44,True
+cbc_0003.html,CBC,MCV,91.0,fL,80,100,False
+cbc_0003.html,CBC,MCH,28.6,pg,27,32,False
+cbc_0003.html,CBC,MCHC,34.0,g/dL,32,36,False
+cbc_0003.html,CBC,RDW-CV,12.7,%,11.5,14.5,False
+cbc_0003.html,CBC,Neutrophils,66,%,40,70,False
+cbc_0003.html,CBC,Lymphocytes,47,%,20,40,True
+cbc_0003.html,CBC,Monocytes,4,%,2,8,False
+cbc_0003.html,CBC,Eosinophils,0,%,1,4,True
+cbc_0003.html,CBC,Basophils,0,%,0,1,False
+cbc_0003.html,CBC,ESR,9,mm/hr,0,20,False
+lipid_0004.html,LIPID,Total Cholesterol,190,mg/dL,0,200,False
+lipid_0004.html,LIPID,Triglycerides,103,mg/dL,0,150,False
+lipid_0004.html,LIPID,HDL Cholesterol,37,mg/dL,40,60,True
+lipid_0004.html,LIPID,LDL Cholesterol,106,mg/dL,0,100,True
+lipid_0004.html,LIPID,VLDL Cholesterol,45,mg/dL,5,40,True
+lipid_0004.html,LIPID,Total Cholesterol / HDL Ratio,5.4,,0,5.0,True
+lipid_0004.html,LIPID,LDL / HDL Ratio,3.8,,0,3.5,True
+cbc_0005.html,CBC,Haemoglobin (Hb),15.3,g/dL,13.0,17.0,False
+cbc_0005.html,CBC,RBC Count,5.12,million/µL,4.5,5.5,False
+cbc_0005.html,CBC,WBC Count (TLC),1470,cells/µL,4000,11000,True
+cbc_0005.html,CBC,Platelet Count,4.29,lakhs/µL,1.5,4.0,True
+cbc_0005.html,CBC,PCV / Hematocrit,46.8,%,40,50,False
+cbc_0005.html,CBC,MCV,91.5,fL,80,100,False
+cbc_0005.html,CBC,MCH,26.7,pg,27,32,True
+cbc_0005.html,CBC,MCHC,33.3,g/dL,32,36,False
+cbc_0005.html,CBC,RDW-CV,14.0,%,11.5,14.5,False
+cbc_0005.html,CBC,Neutrophils,30,%,40,70,True
+cbc_0005.html,CBC,Lymphocytes,37,%,20,40,False
+cbc_0005.html,CBC,Monocytes,4,%,2,8,False
+cbc_0005.html,CBC,Eosinophils,2,%,1,4,False
+cbc_0005.html,CBC,Basophils,0,%,0,1,False
+cbc_0005.html,CBC,ESR,9,mm/hr,0,15,False
+lipid_0006.html,LIPID,Total Cholesterol,190,mg/dL,0,200,False
+lipid_0006.html,LIPID,Triglycerides,177,mg/dL,0,150,True
+lipid_0006.html,LIPID,HDL Cholesterol,41,mg/dL,40,60,False
+lipid_0006.html,LIPID,LDL Cholesterol,110,mg/dL,0,100,True
+lipid_0006.html,LIPID,VLDL Cholesterol,45,mg/dL,5,40,True
+lipid_0006.html,LIPID,Total Cholesterol / HDL Ratio,4.8,,0,5.0,False
+lipid_0006.html,LIPID,LDL / HDL Ratio,4.1,,0,3.5,True
+cbc_0007.html,CBC,Haemoglobin (Hb),16.3,g/dL,13.0,17.0,False
+cbc_0007.html,CBC,RBC Count,5.37,million/µL,4.5,5.5,False
+cbc_0007.html,CBC,WBC Count (TLC),7163,cells/µL,4000,11000,False
+cbc_0007.html,CBC,Platelet Count,2.26,lakhs/µL,1.5,4.0,False
+cbc_0007.html,CBC,PCV / Hematocrit,42.0,%,40,50,False
+cbc_0007.html,CBC,MCV,93.3,fL,80,100,False
+cbc_0007.html,CBC,MCH,29.5,pg,27,32,False
+cbc_0007.html,CBC,MCHC,37.8,g/dL,32,36,True
+cbc_0007.html,CBC,RDW-CV,13.6,%,11.5,14.5,False
+cbc_0007.html,CBC,Neutrophils,73,%,40,70,True
+cbc_0007.html,CBC,Lymphocytes,18,%,20,40,True
+cbc_0007.html,CBC,Monocytes,10,%,2,8,True
+cbc_0007.html,CBC,Eosinophils,3,%,1,4,False
+cbc_0007.html,CBC,Basophils,0,%,0,1,False
+cbc_0007.html,CBC,ESR,7,mm/hr,0,15,False
+lipid_0008.html,LIPID,Total Cholesterol,190,mg/dL,0,200,False
+lipid_0008.html,LIPID,Triglycerides,175,mg/dL,0,150,True
+lipid_0008.html,LIPID,HDL Cholesterol,51,mg/dL,50,70,False
+lipid_0008.html,LIPID,LDL Cholesterol,129,mg/dL,0,100,True
+lipid_0008.html,LIPID,VLDL Cholesterol,33,mg/dL,5,40,False
+lipid_0008.html,LIPID,Total Cholesterol / HDL Ratio,5.7,,0,5.0,True
+lipid_0008.html,LIPID,LDL / HDL Ratio,2.6,,0,3.5,False
+cbc_0009.html,CBC,Haemoglobin (Hb),17.9,g/dL,13.0,17.0,True
+cbc_0009.html,CBC,RBC Count,5.43,million/µL,4.5,5.5,False
+cbc_0009.html,CBC,WBC Count (TLC),9315,cells/µL,4000,11000,False
+cbc_0009.html,CBC,Platelet Count,0.88,lakhs/µL,1.5,4.0,True
+cbc_0009.html,CBC,PCV / Hematocrit,40.5,%,40,50,False
+cbc_0009.html,CBC,MCV,87.0,fL,80,100,False
+cbc_0009.html,CBC,MCH,29.4,pg,27,32,False
+cbc_0009.html,CBC,MCHC,33.4,g/dL,32,36,False
+cbc_0009.html,CBC,RDW-CV,13.9,%,11.5,14.5,False
+cbc_0009.html,CBC,Neutrophils,54,%,40,70,False
+cbc_0009.html,CBC,Lymphocytes,46,%,20,40,True
+cbc_0009.html,CBC,Monocytes,5,%,2,8,False
+cbc_0009.html,CBC,Eosinophils,2,%,1,4,False
+cbc_0009.html,CBC,Basophils,0,%,0,1,False
+cbc_0009.html,CBC,ESR,8,mm/hr,0,15,False
+lipid_0010.html,LIPID,Total Cholesterol,177,mg/dL,0,200,False
+lipid_0010.html,LIPID,Triglycerides,109,mg/dL,0,150,False
+lipid_0010.html,LIPID,HDL Cholesterol,67,mg/dL,50,70,False
+lipid_0010.html,LIPID,LDL Cholesterol,95,mg/dL,0,100,False
+lipid_0010.html,LIPID,VLDL Cholesterol,0,mg/dL,5,40,True
+lipid_0010.html,LIPID,Total Cholesterol / HDL Ratio,4.3,,0,5.0,False
+lipid_0010.html,LIPID,LDL / HDL Ratio,2.3,,0,3.5,False

@@ -1,0 +1,40 @@
+# ── Core API ──
+fastapi==0.115.0
+uvicorn[standard]==0.30.6
+python-multipart==0.0.9
+pydantic==2.9.1
+python-dotenv==1.0.1
+
+# ── OCR ──
+paddleocr>=2.7.0
+paddlepaddle>=2.6.0
+
+# ── ML / NLP ──
+transformers>=4.44.0
+torch>=2.1.0
+spacy>=3.7.0
+
+# ── LLM clients ──
+openai>=1.40.0
+google-generativeai>=0.7.0
+
+# ── Data & utilities ──
+pandas>=2.2.0
+numpy>=1.26.0
+rapidfuzz>=3.9.0
+Pillow>=10.4.0
+Jinja2>=3.1.4
+imgkit>=1.2.3
+
+# ── Scheduling ──
+APScheduler>=3.10.4
+
+# ── Testing ──
+pytest>=8.3.0
+pytest-asyncio>=0.23.0
+httpx>=0.27.0
+
+# ── Eval helpers ──
+jiwer>=3.0.0            # for CER/WER computation
+seqeval>=1.2.2          # for NER P/R/F1
+scikit-learn>=1.5.0

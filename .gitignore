@@ -1,0 +1,58 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Virtual environment
+venv/
+.venv/
+env/
+
+# Environment variables
+.env
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Data — keep structure but not large files
+backend/data/raw/prescriptions/*.jpg
+backend/data/raw/prescriptions/*.png
+backend/data/raw/prescriptions/*.jpeg
+backend/data/raw/lab_reports/*.jpg
+backend/data/raw/lab_reports/*.png
+backend/data/raw/lab_reports/*.pdf
+backend/data/raw/lab_reports/*.html
+
+# Generated synthetic images (keep templates and script, not output images)
+backend/data/synthetic/output/
+
+# Model weights
+backend/extraction/biobert_ner/model/
+
+# Eval results (track these in git)
+# !backend/eval/results/
+
+# Notebooks checkpoints
+.ipynb_checkpoints/
+
+# Node / Frontend
+node_modules/
+frontend/node_modules/
+frontend/dist/
+
+# Logs
+*.log
