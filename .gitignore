@@ -29,9 +29,8 @@ Thumbs.db
 desktop.ini
 
 # Data — keep structure but not large files
-backend/data/raw/prescriptions/*.jpg
-backend/data/raw/prescriptions/*.png
-backend/data/raw/prescriptions/*.jpeg
+backend/data/raw/prescriptions/*
+!backend/data/raw/prescriptions/README.md
 backend/data/raw/lab_reports/*.jpg
 backend/data/raw/lab_reports/*.png
 backend/data/raw/lab_reports/*.pdf
@@ -42,6 +41,7 @@ backend/data/synthetic/output/
 
 # Model weights
 backend/extraction/biobert_ner/model/
+backend/ocr/checkpoints/
 
 # Eval results (track these in git)
 # !backend/eval/results/
@@ -56,3 +56,4 @@ frontend/dist/
 
 # Logs
 *.log
+backend/ocr/logs/

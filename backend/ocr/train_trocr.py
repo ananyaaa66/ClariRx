@@ -172,7 +172,17 @@ def main():
     )
 
     print("\n🚀 Starting Training...")
-    trainer.train()
+    # Check if a checkpoint exists
+    import os
+    checkpoint = None
+    if os.path.exists(CHECKPOINT_DIR):
+        checkpoints = [d for d in os.listdir(CHECKPOINT_DIR) if d.startswith("checkpoint-")]
+        if checkpoints:
+            checkpoints.sort(key=lambda x: int(x.split("-")[1]))
+            checkpoint = str(CHECKPOINT_DIR / checkpoints[-1])
+            print(f"  Resuming from checkpoint: {checkpoint}")
+    
+    trainer.train(resume_from_checkpoint=checkpoint)
 
     print("\n✅ Training Complete. Saving best model...")
     trainer.save_model(str(CHECKPOINT_DIR))
