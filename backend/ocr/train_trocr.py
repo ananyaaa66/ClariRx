@@ -110,18 +110,20 @@ def main():
     model = freeze_encoder(model)
     
     # Set special tokens used for generating text
-    model.config.decoder_start_token_id = processor.tokenizer.cls_token_id
-    model.config.pad_token_id = processor.tokenizer.pad_token_id
+    model.config.decoder_start_token_id = tokenizer.cls_token_id
+    model.config.pad_token_id = tokenizer.pad_token_id
     # Ensure vocabulary size matches
     model.config.vocab_size = model.config.decoder.vocab_size
 
-    # Set beam search parameters
-    model.config.eos_token_id = processor.tokenizer.sep_token_id
-    model.config.max_length = 32
-    model.config.early_stopping = True
-    model.config.no_repeat_ngram_size = 3
-    model.config.length_penalty = 2.0
-    model.config.num_beams = 4
+    # Set beam search parameters correctly in generation_config
+    model.generation_config.decoder_start_token_id = tokenizer.cls_token_id
+    model.generation_config.pad_token_id = tokenizer.pad_token_id
+    model.generation_config.eos_token_id = tokenizer.sep_token_id
+    model.generation_config.max_length = 32
+    model.generation_config.early_stopping = True
+    model.generation_config.no_repeat_ngram_size = 3
+    model.generation_config.length_penalty = 2.0
+    model.generation_config.num_beams = 4
 
     # ── Dataset ────────────────────────────────────────────────────────────
     print("📂 Loading datasets...")
