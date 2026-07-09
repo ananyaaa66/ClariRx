@@ -7,6 +7,7 @@ import ResultsDashboard from './components/ResultsDashboard';
 function App() {
   const [appState, setAppState] = useState('upload'); // upload | processing | results
   const [uploadedFile, setUploadedFile] = useState(null);
+  const [selectedModel, setSelectedModel] = useState('gemini'); // gemini | groq
   
   // Mock data for the MVP flow
   const [mockResults, setMockResults] = useState(null);
@@ -54,7 +55,12 @@ function App() {
 
   return (
     <>
-      <Header onReset={handleReset} showReset={appState === 'results'} />
+      <Header 
+        onReset={handleReset} 
+        showReset={appState === 'results'} 
+        selectedModel={selectedModel}
+        onModelChange={setSelectedModel}
+      />
       
       <main className="container" style={{ padding: 'var(--space-6) var(--space-4)' }}>
         {appState === 'upload' && (
