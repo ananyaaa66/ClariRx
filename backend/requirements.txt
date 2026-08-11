@@ -12,6 +12,7 @@ paddlepaddle>=2.6.0
 # ── ML / NLP ──
 transformers>=4.44.0
 torch>=2.1.0
+datasets>=2.19.0
 spacy>=3.7.0
 
 # ── LLM clients ──

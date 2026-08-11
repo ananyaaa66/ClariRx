@@ -1,0 +1,1236 @@
+[
+  {
+    "generic_name": "Amoxicillin",
+    "brand_names": [
+      "Amoxil",
+      "Mox",
+      "Novamox",
+      "Amoxicillin"
+    ],
+    "drug_class": "Antibiotic (Penicillin)",
+    "use": "Treats bacterial infections of the ear, nose, throat, urinary tract, and skin.",
+    "common_dosages": [
+      "250mg",
+      "500mg"
+    ],
+    "side_effects": [
+      "Nausea",
+      "Diarrhea",
+      "Skin rash",
+      "Stomach upset"
+    ],
+    "warnings": [
+      "Tell your doctor if you are allergic to penicillin.",
+      "Complete the full course even if you feel better."
+    ]
+  },
+  {
+    "generic_name": "Azithromycin",
+    "brand_names": [
+      "Azithral",
+      "Zithromax",
+      "Azee",
+      "Azithrocin",
+      "Azyth",
+      "Zithrin",
+      "Rozith"
+    ],
+    "drug_class": "Antibiotic (Macrolide)",
+    "use": "Treats bacterial infections including respiratory infections, ear infections, and skin infections.",
+    "common_dosages": [
+      "250mg",
+      "500mg"
+    ],
+    "side_effects": [
+      "Nausea",
+      "Diarrhea",
+      "Stomach pain",
+      "Headache"
+    ],
+    "warnings": [
+      "Take on an empty stomach or 1 hour before meals.",
+      "Do not take antacids within 2 hours."
+    ]
+  },
+  {
+    "generic_name": "Ciprofloxacin",
+    "brand_names": [
+      "Cipro",
+      "Ciplox",
+      "Cifran"
+    ],
+    "drug_class": "Antibiotic (Fluoroquinolone)",
+    "use": "Treats urinary tract infections, respiratory infections, and gastrointestinal infections.",
+    "common_dosages": [
+      "250mg",
+      "500mg"
+    ],
+    "side_effects": [
+      "Nausea",
+      "Diarrhea",
+      "Dizziness",
+      "Tendon pain"
+    ],
+    "warnings": [
+      "Avoid excessive sun exposure.",
+      "Drink plenty of water.",
+      "May cause tendon problems in rare cases."
+    ]
+  },
+  {
+    "generic_name": "Levofloxacin",
+    "brand_names": [
+      "Levaquin",
+      "Levoflox",
+      "Glevo"
+    ],
+    "drug_class": "Antibiotic (Fluoroquinolone)",
+    "use": "Treats pneumonia, sinusitis, urinary tract infections, and skin infections.",
+    "common_dosages": [
+      "250mg",
+      "500mg",
+      "750mg"
+    ],
+    "side_effects": [
+      "Nausea",
+      "Headache",
+      "Diarrhea",
+      "Dizziness"
+    ],
+    "warnings": [
+      "Avoid sun exposure.",
+      "May cause tendon problems.",
+      "Take with plenty of fluids."
+    ]
+  },
+  {
+    "generic_name": "Doxycycline",
+    "brand_names": [
+      "Doxy",
+      "Doxt",
+      "Doxycycline"
+    ],
+    "drug_class": "Antibiotic (Tetracycline)",
+    "use": "Treats acne, respiratory infections, malaria prevention, and tick-borne diseases.",
+    "common_dosages": [
+      "100mg"
+    ],
+    "side_effects": [
+      "Sun sensitivity",
+      "Nausea",
+      "Stomach upset"
+    ],
+    "warnings": [
+      "Avoid sun exposure.",
+      "Do not lie down for 30 min after taking.",
+      "Do not take with milk or antacids."
+    ]
+  },
+  {
+    "generic_name": "Cefixime",
+    "brand_names": [
+      "Suprax",
+      "Cefix",
+      "Taxim-O"
+    ],
+    "drug_class": "Antibiotic (Cephalosporin)",
+    "use": "Treats ear infections, urinary tract infections, throat infections, and gonorrhea.",
+    "common_dosages": [
+      "200mg",
+      "400mg"
+    ],
+    "side_effects": [
+      "Diarrhea",
+      "Stomach pain",
+      "Nausea"
+    ],
+    "warnings": [
+      "Complete the full course.",
+      "Tell doctor if allergic to penicillin."
+    ]
+  },
+  {
+    "generic_name": "Cephalexin",
+    "brand_names": [
+      "Keflex",
+      "Cephalexin",
+      "Sporidex"
+    ],
+    "drug_class": "Antibiotic (Cephalosporin)",
+    "use": "Treats skin infections, bone infections, respiratory tract infections, and urinary tract infections.",
+    "common_dosages": [
+      "250mg",
+      "500mg"
+    ],
+    "side_effects": [
+      "Diarrhea",
+      "Nausea",
+      "Stomach upset",
+      "Rash"
+    ],
+    "warnings": [
+      "Complete the full course.",
+      "Inform doctor if allergic to penicillin."
+    ]
+  },
+  {
+    "generic_name": "Metronidazole",
+    "brand_names": [
+      "Flagyl",
+      "Metro",
+      "Metrogyl",
+      "Nidazyl"
+    ],
+    "drug_class": "Antibiotic / Antiprotozoal",
+    "use": "Treats infections caused by bacteria and parasites, including dental, stomach, and vaginal infections.",
+    "common_dosages": [
+      "200mg",
+      "400mg"
+    ],
+    "side_effects": [
+      "Metallic taste",
+      "Nausea",
+      "Dark urine",
+      "Headache"
+    ],
+    "warnings": [
+      "Do NOT drink alcohol while taking this medicine — causes severe nausea and vomiting.",
+      "Complete the full course."
+    ]
+  },
+  {
+    "generic_name": "Ofloxacin",
+    "brand_names": [
+      "Oflox",
+      "Zanocin",
+      "Ofloxacin"
+    ],
+    "drug_class": "Antibiotic (Fluoroquinolone)",
+    "use": "Treats urinary tract infections, respiratory infections, and skin infections.",
+    "common_dosages": [
+      "200mg",
+      "400mg"
+    ],
+    "side_effects": [
+      "Nausea",
+      "Headache",
+      "Dizziness",
+      "Diarrhea"
+    ],
+    "warnings": [
+      "Avoid sun exposure.",
+      "Drink plenty of water."
+    ]
+  },
+  {
+    "generic_name": "Clindamycin",
+    "brand_names": [
+      "Cleocin",
+      "Dalacin",
+      "Clindamycin"
+    ],
+    "drug_class": "Antibiotic (Lincosamide)",
+    "use": "Treats serious bacterial infections of the skin, lungs, blood, and internal organs.",
+    "common_dosages": [
+      "150mg",
+      "300mg"
+    ],
+    "side_effects": [
+      "Diarrhea",
+      "Nausea",
+      "Stomach pain",
+      "Rash"
+    ],
+    "warnings": [
+      "Stop and call doctor if you develop severe diarrhea.",
+      "Complete the full course."
+    ]
+  },
+  {
+    "generic_name": "Fluconazole",
+    "brand_names": [
+      "Diflucan",
+      "Flucos",
+      "Diflu",
+      "Fluconazole"
+    ],
+    "drug_class": "Antifungal",
+    "use": "Treats fungal infections including yeast infections, oral thrush, and skin fungal infections.",
+    "common_dosages": [
+      "150mg",
+      "200mg"
+    ],
+    "side_effects": [
+      "Headache",
+      "Nausea",
+      "Stomach pain",
+      "Diarrhea"
+    ],
+    "warnings": [
+      "May interact with many other medicines.",
+      "Tell doctor about all medicines you take."
+    ]
+  },
+  {
+    "generic_name": "Paracetamol",
+    "brand_names": [
+      "Crocin",
+      "Dolo",
+      "Napa",
+      "Napa Extend",
+      "Paracetamol",
+      "Ace",
+      "Tylenol"
+    ],
+    "drug_class": "Analgesic / Antipyretic",
+    "use": "Relieves mild to moderate pain and reduces fever. Used for headaches, body aches, toothaches, and cold/flu symptoms.",
+    "common_dosages": [
+      "500mg",
+      "650mg"
+    ],
+    "side_effects": [
+      "Rarely causes side effects at normal doses"
+    ],
+    "warnings": [
+      "Do not exceed 4g (4000mg) per day.",
+      "Avoid alcohol while taking this.",
+      "Overdose can cause serious liver damage."
+    ]
+  },
+  {
+    "generic_name": "Ibuprofen",
+    "brand_names": [
+      "Brufen",
+      "Ibugesic",
+      "Advil",
+      "Ibuprofen"
+    ],
+    "drug_class": "NSAID (Anti-inflammatory Painkiller)",
+    "use": "Reduces pain, inflammation, and fever. Used for headaches, muscle pain, arthritis, and menstrual cramps.",
+    "common_dosages": [
+      "200mg",
+      "400mg"
+    ],
+    "side_effects": [
+      "Stomach upset",
+      "Heartburn",
+      "Nausea",
+      "Dizziness"
+    ],
+    "warnings": [
+      "Take with food to protect stomach.",
+      "Not suitable for people with stomach ulcers.",
+      "Avoid in last 3 months of pregnancy."
+    ]
+  },
+  {
+    "generic_name": "Diclofenac",
+    "brand_names": [
+      "Voveran",
+      "Voltaren",
+      "Diclofenac"
+    ],
+    "drug_class": "NSAID (Anti-inflammatory Painkiller)",
+    "use": "Treats pain, swelling, and inflammation from arthritis, sprains, and injuries.",
+    "common_dosages": [
+      "50mg"
+    ],
+    "side_effects": [
+      "Stomach pain",
+      "Nausea",
+      "Headache",
+      "Dizziness"
+    ],
+    "warnings": [
+      "Take with food.",
+      "Not for stomach ulcer patients.",
+      "Use for shortest duration needed."
+    ]
+  },
+  {
+    "generic_name": "Aceclofenac",
+    "brand_names": [
+      "Hifenac",
+      "Zerodol",
+      "Aceclofenac"
+    ],
+    "drug_class": "NSAID (Anti-inflammatory Painkiller)",
+    "use": "Treats pain and inflammation from arthritis, dental pain, and musculoskeletal injuries.",
+    "common_dosages": [
+      "100mg"
+    ],
+    "side_effects": [
+      "Stomach upset",
+      "Nausea",
+      "Diarrhea",
+      "Headache"
+    ],
+    "warnings": [
+      "Take with food.",
+      "Avoid if you have stomach ulcers."
+    ]
+  },
+  {
+    "generic_name": "Tramadol",
+    "brand_names": [
+      "Ultram",
+      "Contramal",
+      "Tramadol"
+    ],
+    "drug_class": "Opioid Analgesic",
+    "use": "Treats moderate to moderately severe pain.",
+    "common_dosages": [
+      "50mg",
+      "100mg"
+    ],
+    "side_effects": [
+      "Drowsiness",
+      "Nausea",
+      "Constipation",
+      "Dizziness"
+    ],
+    "warnings": [
+      "May cause drowsiness — do not drive.",
+      "Can be habit-forming.",
+      "Do not take with alcohol."
+    ]
+  },
+  {
+    "generic_name": "Omeprazole",
+    "brand_names": [
+      "Prilosec",
+      "Omez",
+      "Omastin",
+      "Omeprazole"
+    ],
+    "drug_class": "Proton Pump Inhibitor (PPI)",
+    "use": "Reduces stomach acid. Treats heartburn, acid reflux (GERD), and stomach ulcers.",
+    "common_dosages": [
+      "20mg",
+      "40mg"
+    ],
+    "side_effects": [
+      "Headache",
+      "Stomach pain",
+      "Nausea",
+      "Gas"
+    ],
+    "warnings": [
+      "Take 30 minutes before a meal.",
+      "Long-term use may affect calcium absorption."
+    ]
+  },
+  {
+    "generic_name": "Pantoprazole",
+    "brand_names": [
+      "Pantop",
+      "Pan",
+      "Pantocid",
+      "Pantoprazole"
+    ],
+    "drug_class": "Proton Pump Inhibitor (PPI)",
+    "use": "Reduces stomach acid. Treats GERD, acid reflux, and stomach ulcers.",
+    "common_dosages": [
+      "20mg",
+      "40mg"
+    ],
+    "side_effects": [
+      "Headache",
+      "Diarrhea",
+      "Stomach pain"
+    ],
+    "warnings": [
+      "Take before breakfast.",
+      "Do not crush or chew the tablet."
+    ]
+  },
+  {
+    "generic_name": "Rabeprazole",
+    "brand_names": [
+      "Razo",
+      "Aciphex",
+      "Rabeprazole"
+    ],
+    "drug_class": "Proton Pump Inhibitor (PPI)",
+    "use": "Reduces stomach acid production. Treats GERD, peptic ulcers, and Zollinger-Ellison syndrome.",
+    "common_dosages": [
+      "20mg"
+    ],
+    "side_effects": [
+      "Headache",
+      "Diarrhea",
+      "Nausea"
+    ],
+    "warnings": [
+      "Take before meals.",
+      "Not for long-term use without doctor supervision."
+    ]
+  },
+  {
+    "generic_name": "Esomeprazole",
+    "brand_names": [
+      "Nexium",
+      "Esoral",
+      "Nexcap",
+      "Sergel",
+      "Esonix",
+      "Esomeprazole"
+    ],
+    "drug_class": "Proton Pump Inhibitor (PPI)",
+    "use": "Reduces stomach acid. Treats GERD, erosive esophagitis, and stomach ulcers.",
+    "common_dosages": [
+      "20mg",
+      "40mg"
+    ],
+    "side_effects": [
+      "Headache",
+      "Nausea",
+      "Stomach pain",
+      "Flatulence"
+    ],
+    "warnings": [
+      "Take 1 hour before a meal.",
+      "Swallow whole, do not chew."
+    ]
+  },
+  {
+    "generic_name": "Ranitidine",
+    "brand_names": [
+      "Zantac",
+      "Rantac",
+      "Ranitidine"
+    ],
+    "drug_class": "H2 Receptor Antagonist",
+    "use": "Reduces stomach acid. Treats heartburn, acid reflux, and stomach ulcers.",
+    "common_dosages": [
+      "150mg",
+      "300mg"
+    ],
+    "side_effects": [
+      "Headache",
+      "Constipation",
+      "Diarrhea"
+    ],
+    "warnings": [
+      "Some formulations were recalled due to impurities — use only prescribed brands."
+    ]
+  },
+  {
+    "generic_name": "Domperidone",
+    "brand_names": [
+      "Motilium",
+      "Domstal",
+      "Domperidone"
+    ],
+    "drug_class": "Antiemetic / Prokinetic",
+    "use": "Relieves nausea, vomiting, and bloating. Helps food move through the stomach.",
+    "common_dosages": [
+      "10mg"
+    ],
+    "side_effects": [
+      "Headache",
+      "Dry mouth",
+      "Stomach cramps"
+    ],
+    "warnings": [
+      "Take before meals.",
+      "Avoid in patients with heart rhythm problems."
+    ]
+  },
+  {
+    "generic_name": "Ondansetron",
+    "brand_names": [
+      "Zofran",
+      "Emeset",
+      "Ondansetron"
+    ],
+    "drug_class": "Antiemetic",
+    "use": "Prevents nausea and vomiting caused by surgery, chemotherapy, or medications.",
+    "common_dosages": [
+      "4mg",
+      "8mg"
+    ],
+    "side_effects": [
+      "Headache",
+      "Constipation",
+      "Dizziness"
+    ],
+    "warnings": [
+      "May cause QT prolongation in rare cases.",
+      "Inform doctor of heart conditions."
+    ]
+  },
+  {
+    "generic_name": "Cetirizine",
+    "brand_names": [
+      "Zyrtec",
+      "Cetzine",
+      "Cetisoft",
+      "Alatrol",
+      "Cetirizine"
+    ],
+    "drug_class": "Antihistamine",
+    "use": "Treats allergies — runny nose, sneezing, itchy/watery eyes, and hives.",
+    "common_dosages": [
+      "5mg",
+      "10mg"
+    ],
+    "side_effects": [
+      "Drowsiness",
+      "Dry mouth",
+      "Headache"
+    ],
+    "warnings": [
+      "May cause drowsiness — be careful while driving.",
+      "Avoid alcohol."
+    ]
+  },
+  {
+    "generic_name": "Levocetirizine",
+    "brand_names": [
+      "Xyzal",
+      "Levocet",
+      "Levocetirizine"
+    ],
+    "drug_class": "Antihistamine",
+    "use": "Treats allergies — sneezing, runny nose, itching, and hives. Less drowsy than cetirizine.",
+    "common_dosages": [
+      "5mg"
+    ],
+    "side_effects": [
+      "Mild drowsiness",
+      "Dry mouth",
+      "Headache"
+    ],
+    "warnings": [
+      "Take in the evening.",
+      "Less drowsy but still be careful driving."
+    ]
+  },
+  {
+    "generic_name": "Fexofenadine",
+    "brand_names": [
+      "Allegra",
+      "Telfast",
+      "Fexofast",
+      "Fenadin",
+      "Fexo",
+      "Fexofenadine"
+    ],
+    "drug_class": "Antihistamine (Non-drowsy)",
+    "use": "Treats seasonal allergies and chronic hives without causing drowsiness.",
+    "common_dosages": [
+      "60mg",
+      "120mg",
+      "180mg"
+    ],
+    "side_effects": [
+      "Headache",
+      "Nausea",
+      "Dizziness"
+    ],
+    "warnings": [
+      "Do not take with fruit juices (reduces absorption).",
+      "Non-drowsy — safe for daytime use."
+    ]
+  },
+  {
+    "generic_name": "Chlorpheniramine",
+    "brand_names": [
+      "Piriton",
+      "CTM",
+      "Chlorpheniramine"
+    ],
+    "drug_class": "Antihistamine (Sedating)",
+    "use": "Treats allergy symptoms and common cold — sneezing, runny nose, watery eyes.",
+    "common_dosages": [
+      "4mg"
+    ],
+    "side_effects": [
+      "Drowsiness",
+      "Dry mouth",
+      "Blurred vision"
+    ],
+    "warnings": [
+      "Causes strong drowsiness — do not drive.",
+      "Avoid alcohol."
+    ]
+  },
+  {
+    "generic_name": "Montelukast",
+    "brand_names": [
+      "Singulair",
+      "Montair",
+      "Montene",
+      "Montex",
+      "M-Kast",
+      "Odmon",
+      "Montelukast"
+    ],
+    "drug_class": "Leukotriene Receptor Antagonist",
+    "use": "Prevents asthma attacks and treats seasonal allergies. Reduces airway inflammation.",
+    "common_dosages": [
+      "4mg",
+      "5mg",
+      "10mg"
+    ],
+    "side_effects": [
+      "Headache",
+      "Stomach pain",
+      "Fatigue"
+    ],
+    "warnings": [
+      "Take in the evening.",
+      "Not for acute asthma attacks — use inhaler for emergencies."
+    ]
+  },
+  {
+    "generic_name": "Metformin",
+    "brand_names": [
+      "Glucophage",
+      "Glycomet",
+      "Metformin"
+    ],
+    "drug_class": "Antidiabetic (Biguanide)",
+    "use": "Controls blood sugar levels in Type 2 diabetes. Helps body use insulin more effectively.",
+    "common_dosages": [
+      "500mg",
+      "850mg",
+      "1000mg"
+    ],
+    "side_effects": [
+      "Nausea",
+      "Diarrhea",
+      "Stomach upset",
+      "Metallic taste"
+    ],
+    "warnings": [
+      "Take with food to reduce stomach upset.",
+      "Do not drink alcohol excessively.",
+      "Inform doctor before any surgery or CT scan."
+    ]
+  },
+  {
+    "generic_name": "Amlodipine",
+    "brand_names": [
+      "Norvasc",
+      "Amlong",
+      "Amlodipine"
+    ],
+    "drug_class": "Calcium Channel Blocker",
+    "use": "Lowers blood pressure and treats chest pain (angina). Relaxes blood vessels.",
+    "common_dosages": [
+      "2.5mg",
+      "5mg",
+      "10mg"
+    ],
+    "side_effects": [
+      "Swollen ankles",
+      "Headache",
+      "Flushing",
+      "Dizziness"
+    ],
+    "warnings": [
+      "Do not stop suddenly.",
+      "Avoid grapefruit juice.",
+      "Take at the same time each day."
+    ]
+  },
+  {
+    "generic_name": "Telmisartan",
+    "brand_names": [
+      "Micardis",
+      "Telma",
+      "Telmisartan"
+    ],
+    "drug_class": "ARB (Angiotensin II Receptor Blocker)",
+    "use": "Lowers blood pressure and protects kidneys in diabetic patients.",
+    "common_dosages": [
+      "20mg",
+      "40mg",
+      "80mg"
+    ],
+    "side_effects": [
+      "Dizziness",
+      "Back pain",
+      "Diarrhea"
+    ],
+    "warnings": [
+      "Do not use during pregnancy.",
+      "May cause dizziness — stand up slowly."
+    ]
+  },
+  {
+    "generic_name": "Losartan",
+    "brand_names": [
+      "Cozaar",
+      "Losacar",
+      "Losartan"
+    ],
+    "drug_class": "ARB (Angiotensin II Receptor Blocker)",
+    "use": "Lowers blood pressure and protects kidneys. Also used after heart attacks.",
+    "common_dosages": [
+      "25mg",
+      "50mg",
+      "100mg"
+    ],
+    "side_effects": [
+      "Dizziness",
+      "Fatigue",
+      "Low blood pressure"
+    ],
+    "warnings": [
+      "Do not use during pregnancy.",
+      "Stay hydrated."
+    ]
+  },
+  {
+    "generic_name": "Olmesartan",
+    "brand_names": [
+      "Benicar",
+      "Olmy",
+      "Olmesartan"
+    ],
+    "drug_class": "ARB (Angiotensin II Receptor Blocker)",
+    "use": "Lowers high blood pressure by relaxing blood vessels.",
+    "common_dosages": [
+      "20mg",
+      "40mg"
+    ],
+    "side_effects": [
+      "Dizziness",
+      "Diarrhea",
+      "Joint pain"
+    ],
+    "warnings": [
+      "Do not use during pregnancy.",
+      "Take at the same time daily."
+    ]
+  },
+  {
+    "generic_name": "Atorvastatin",
+    "brand_names": [
+      "Lipitor",
+      "Atorva",
+      "Atorvastatin"
+    ],
+    "drug_class": "Statin (Cholesterol Lowering)",
+    "use": "Lowers bad cholesterol (LDL) and triglycerides. Reduces risk of heart attack and stroke.",
+    "common_dosages": [
+      "10mg",
+      "20mg",
+      "40mg"
+    ],
+    "side_effects": [
+      "Muscle pain",
+      "Headache",
+      "Nausea",
+      "Joint pain"
+    ],
+    "warnings": [
+      "Take at bedtime.",
+      "Report unexplained muscle pain to your doctor.",
+      "Avoid grapefruit."
+    ]
+  },
+  {
+    "generic_name": "Rosuvastatin",
+    "brand_names": [
+      "Crestor",
+      "Rosuvas",
+      "Rosuvastatin"
+    ],
+    "drug_class": "Statin (Cholesterol Lowering)",
+    "use": "Lowers cholesterol and reduces risk of heart disease and stroke.",
+    "common_dosages": [
+      "5mg",
+      "10mg",
+      "20mg"
+    ],
+    "side_effects": [
+      "Headache",
+      "Muscle pain",
+      "Nausea",
+      "Weakness"
+    ],
+    "warnings": [
+      "Can be taken at any time of day.",
+      "Report muscle pain or dark urine immediately."
+    ]
+  },
+  {
+    "generic_name": "Clopidogrel",
+    "brand_names": [
+      "Plavix",
+      "Clopilet",
+      "Clopidogrel"
+    ],
+    "drug_class": "Antiplatelet",
+    "use": "Prevents blood clots. Used after heart attacks, strokes, and stent placement.",
+    "common_dosages": [
+      "75mg"
+    ],
+    "side_effects": [
+      "Easy bruising",
+      "Bleeding",
+      "Stomach upset"
+    ],
+    "warnings": [
+      "Do not stop without doctor's advice.",
+      "Tell dentist/surgeon you are taking this.",
+      "Avoid aspirin unless prescribed."
+    ]
+  },
+  {
+    "generic_name": "Aspirin",
+    "brand_names": [
+      "Disprin",
+      "Ecosprin",
+      "Aspirin"
+    ],
+    "drug_class": "Antiplatelet / NSAID",
+    "use": "Low-dose: prevents blood clots and heart attacks. High-dose: pain relief and anti-inflammatory.",
+    "common_dosages": [
+      "75mg",
+      "150mg",
+      "325mg"
+    ],
+    "side_effects": [
+      "Stomach irritation",
+      "Easy bleeding",
+      "Heartburn"
+    ],
+    "warnings": [
+      "Take with food.",
+      "Not for children under 16.",
+      "Increases bleeding risk."
+    ]
+  },
+  {
+    "generic_name": "Salbutamol",
+    "brand_names": [
+      "Ventolin",
+      "Asthalin",
+      "Salbutamol"
+    ],
+    "drug_class": "Bronchodilator (Beta-2 Agonist)",
+    "use": "Opens airways during asthma attacks and breathing difficulty. Quick-relief inhaler.",
+    "common_dosages": [
+      "100mcg inhaler",
+      "2mg tablet",
+      "4mg tablet"
+    ],
+    "side_effects": [
+      "Tremor",
+      "Fast heartbeat",
+      "Headache",
+      "Nervousness"
+    ],
+    "warnings": [
+      "For quick relief only — not for daily prevention.",
+      "Rinse mouth after using inhaler."
+    ]
+  },
+  {
+    "generic_name": "Gabapentin",
+    "brand_names": [
+      "Neurontin",
+      "Gabantin",
+      "Gabapentin"
+    ],
+    "drug_class": "Anticonvulsant / Nerve Pain Medication",
+    "use": "Treats nerve pain (neuropathy), seizures, and restless leg syndrome.",
+    "common_dosages": [
+      "100mg",
+      "300mg",
+      "400mg"
+    ],
+    "side_effects": [
+      "Drowsiness",
+      "Dizziness",
+      "Fatigue",
+      "Swelling"
+    ],
+    "warnings": [
+      "Do not stop suddenly — must be tapered.",
+      "May cause drowsiness — avoid driving."
+    ]
+  },
+  {
+    "generic_name": "Pregabalin",
+    "brand_names": [
+      "Lyrica",
+      "Pregastar",
+      "Pregabalin"
+    ],
+    "drug_class": "Anticonvulsant / Nerve Pain Medication",
+    "use": "Treats nerve pain from diabetes, shingles, fibromyalgia, and anxiety.",
+    "common_dosages": [
+      "50mg",
+      "75mg",
+      "150mg"
+    ],
+    "side_effects": [
+      "Drowsiness",
+      "Dizziness",
+      "Weight gain",
+      "Blurred vision"
+    ],
+    "warnings": [
+      "Do not stop suddenly.",
+      "May cause drowsiness.",
+      "Avoid alcohol."
+    ]
+  },
+  {
+    "generic_name": "Sertraline",
+    "brand_names": [
+      "Zoloft",
+      "Serta",
+      "Sertraline"
+    ],
+    "drug_class": "SSRI Antidepressant",
+    "use": "Treats depression, anxiety, panic attacks, OCD, and PTSD.",
+    "common_dosages": [
+      "25mg",
+      "50mg",
+      "100mg"
+    ],
+    "side_effects": [
+      "Nausea",
+      "Headache",
+      "Drowsiness",
+      "Dry mouth",
+      "Insomnia"
+    ],
+    "warnings": [
+      "Takes 2-4 weeks to show full effect.",
+      "Do not stop suddenly.",
+      "Avoid alcohol."
+    ]
+  },
+  {
+    "generic_name": "Escitalopram",
+    "brand_names": [
+      "Lexapro",
+      "Cipralex",
+      "Escitalopram"
+    ],
+    "drug_class": "SSRI Antidepressant",
+    "use": "Treats depression and generalized anxiety disorder.",
+    "common_dosages": [
+      "5mg",
+      "10mg",
+      "20mg"
+    ],
+    "side_effects": [
+      "Nausea",
+      "Drowsiness",
+      "Insomnia",
+      "Sexual dysfunction"
+    ],
+    "warnings": [
+      "Takes 2-4 weeks for full effect.",
+      "Do not stop abruptly.",
+      "Avoid alcohol."
+    ]
+  },
+  {
+    "generic_name": "Alprazolam",
+    "brand_names": [
+      "Xanax",
+      "Alprax",
+      "Alprazolam"
+    ],
+    "drug_class": "Benzodiazepine (Anti-anxiety)",
+    "use": "Treats anxiety and panic disorders. Provides quick relief from severe anxiety.",
+    "common_dosages": [
+      "0.25mg",
+      "0.5mg",
+      "1mg"
+    ],
+    "side_effects": [
+      "Drowsiness",
+      "Fatigue",
+      "Memory problems",
+      "Dizziness"
+    ],
+    "warnings": [
+      "Can be habit-forming — use only as prescribed.",
+      "Do NOT stop suddenly.",
+      "Avoid alcohol.",
+      "Do not drive."
+    ]
+  },
+  {
+    "generic_name": "Clonazepam",
+    "brand_names": [
+      "Klonopin",
+      "Rivotril",
+      "Clonazepam"
+    ],
+    "drug_class": "Benzodiazepine (Anticonvulsant / Anti-anxiety)",
+    "use": "Treats seizures, panic disorder, and anxiety.",
+    "common_dosages": [
+      "0.25mg",
+      "0.5mg",
+      "1mg",
+      "2mg"
+    ],
+    "side_effects": [
+      "Drowsiness",
+      "Dizziness",
+      "Coordination problems"
+    ],
+    "warnings": [
+      "Can be habit-forming.",
+      "Do not stop suddenly — must be tapered.",
+      "Avoid alcohol."
+    ]
+  },
+  {
+    "generic_name": "Baclofen",
+    "brand_names": [
+      "Lioresal",
+      "Baclofen",
+      "Baclon",
+      "Bacmax",
+      "Flexibac"
+    ],
+    "drug_class": "Muscle Relaxant",
+    "use": "Relieves muscle stiffness and spasms from conditions like multiple sclerosis and spinal cord injuries.",
+    "common_dosages": [
+      "10mg",
+      "25mg"
+    ],
+    "side_effects": [
+      "Drowsiness",
+      "Dizziness",
+      "Weakness",
+      "Nausea"
+    ],
+    "warnings": [
+      "Do not stop suddenly — must be tapered.",
+      "May cause drowsiness.",
+      "Avoid alcohol."
+    ]
+  },
+  {
+    "generic_name": "Ketoconazole",
+    "brand_names": [
+      "Nizoral",
+      "Ketocon",
+      "Ketoral",
+      "Ketotab",
+      "Ketozol",
+      "Nizoder"
+    ],
+    "drug_class": "Antifungal",
+    "use": "Treats fungal infections of the skin, scalp (dandruff), and nails.",
+    "common_dosages": [
+      "200mg tablet",
+      "2% cream",
+      "2% shampoo"
+    ],
+    "side_effects": [
+      "Nausea",
+      "Stomach pain",
+      "Headache",
+      "Skin irritation (topical)"
+    ],
+    "warnings": [
+      "Oral form may affect liver — needs monitoring.",
+      "Topical forms are generally safe."
+    ]
+  },
+  {
+    "generic_name": "Loperamide",
+    "brand_names": [
+      "Imodium",
+      "Lopamide",
+      "Loperamide"
+    ],
+    "drug_class": "Antidiarrheal",
+    "use": "Treats acute diarrhea by slowing bowel movement.",
+    "common_dosages": [
+      "2mg"
+    ],
+    "side_effects": [
+      "Constipation",
+      "Stomach cramps",
+      "Nausea"
+    ],
+    "warnings": [
+      "Do not use for more than 2 days without doctor advice.",
+      "Stop if fever develops.",
+      "Stay hydrated."
+    ]
+  },
+  {
+    "generic_name": "Vitamin D3 (Cholecalciferol)",
+    "brand_names": [
+      "D-Rise",
+      "Calcirol",
+      "Uprise D3"
+    ],
+    "drug_class": "Vitamin Supplement",
+    "use": "Treats and prevents Vitamin D deficiency. Important for bone health and immunity.",
+    "common_dosages": [
+      "1000 IU",
+      "60000 IU (weekly)"
+    ],
+    "side_effects": [
+      "Rarely causes side effects at normal doses"
+    ],
+    "warnings": [
+      "Take with fatty food for better absorption.",
+      "Excessive doses can cause calcium buildup."
+    ]
+  },
+  {
+    "generic_name": "Calcium + Vitamin D",
+    "brand_names": [
+      "Shelcal",
+      "CCM",
+      "Gemcal"
+    ],
+    "drug_class": "Mineral Supplement",
+    "use": "Prevents and treats calcium deficiency. Strengthens bones, especially in women.",
+    "common_dosages": [
+      "500mg + 250IU"
+    ],
+    "side_effects": [
+      "Constipation",
+      "Gas",
+      "Stomach upset"
+    ],
+    "warnings": [
+      "Take after meals.",
+      "Do not take with iron supplements at the same time."
+    ]
+  },
+  {
+    "generic_name": "Iron (Ferrous Sulfate/Fumarate)",
+    "brand_names": [
+      "Fefol",
+      "Autrin",
+      "Orofer"
+    ],
+    "drug_class": "Mineral Supplement",
+    "use": "Treats iron-deficiency anemia. Increases red blood cell production.",
+    "common_dosages": [
+      "200mg",
+      "325mg"
+    ],
+    "side_effects": [
+      "Constipation",
+      "Black stool",
+      "Nausea",
+      "Stomach upset"
+    ],
+    "warnings": [
+      "Take on empty stomach with vitamin C for best absorption.",
+      "Black stool is normal."
+    ]
+  }
+]

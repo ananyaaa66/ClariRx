@@ -1,0 +1,547 @@
+[
+  {
+    "test_name": "Haemoglobin (Hb)",
+    "aliases": [
+      "Hemoglobin",
+      "Hb",
+      "HGB"
+    ],
+    "category": "CBC",
+    "what_it_measures": "The protein in red blood cells that carries oxygen throughout your body.",
+    "unit": "g/dL",
+    "normal_range_male": [
+      13.0,
+      17.0
+    ],
+    "normal_range_female": [
+      12.0,
+      15.5
+    ],
+    "high_means": "Dehydration, lung disease, or living at high altitude. Rarely, a blood disorder.",
+    "low_means": "Anemia — your body isn't getting enough oxygen. Could be from iron deficiency, blood loss, or chronic disease."
+  },
+  {
+    "test_name": "RBC Count",
+    "aliases": [
+      "Red Blood Cell Count",
+      "RBC",
+      "Erythrocyte Count"
+    ],
+    "category": "CBC",
+    "what_it_measures": "The number of red blood cells in your blood.",
+    "unit": "million/µL",
+    "normal_range_male": [
+      4.5,
+      5.5
+    ],
+    "normal_range_female": [
+      3.8,
+      4.8
+    ],
+    "high_means": "Dehydration, smoking, or living at high altitude.",
+    "low_means": "Anemia, blood loss, or bone marrow problems."
+  },
+  {
+    "test_name": "WBC Count (TLC)",
+    "aliases": [
+      "White Blood Cell Count",
+      "WBC",
+      "TLC",
+      "Leukocyte Count"
+    ],
+    "category": "CBC",
+    "what_it_measures": "The number of white blood cells that fight infections.",
+    "unit": "cells/µL",
+    "normal_range_male": [
+      4000,
+      11000
+    ],
+    "normal_range_female": [
+      4000,
+      11000
+    ],
+    "high_means": "Your body is fighting an infection or inflammation. Could also indicate stress or medication effects.",
+    "low_means": "Weak immune system. Could be from a viral infection, bone marrow problem, or certain medications."
+  },
+  {
+    "test_name": "Platelet Count",
+    "aliases": [
+      "Platelets",
+      "PLT",
+      "Thrombocyte Count"
+    ],
+    "category": "CBC",
+    "what_it_measures": "The cells that help your blood clot and stop bleeding.",
+    "unit": "lakhs/µL",
+    "normal_range_male": [
+      1.5,
+      4.0
+    ],
+    "normal_range_female": [
+      1.5,
+      4.0
+    ],
+    "high_means": "Infection, inflammation, iron deficiency, or in rare cases a bone marrow disorder.",
+    "low_means": "Risk of excessive bleeding. Could be from dengue, viral infections, medications, or liver disease."
+  },
+  {
+    "test_name": "PCV / Hematocrit",
+    "aliases": [
+      "PCV",
+      "Hematocrit",
+      "HCT",
+      "Packed Cell Volume"
+    ],
+    "category": "CBC",
+    "what_it_measures": "The percentage of your blood that is made up of red blood cells.",
+    "unit": "%",
+    "normal_range_male": [
+      40,
+      50
+    ],
+    "normal_range_female": [
+      36,
+      44
+    ],
+    "high_means": "Dehydration or polycythemia (too many red blood cells).",
+    "low_means": "Anemia or overhydration."
+  },
+  {
+    "test_name": "MCV",
+    "aliases": [
+      "Mean Corpuscular Volume"
+    ],
+    "category": "CBC",
+    "what_it_measures": "The average size of your red blood cells.",
+    "unit": "fL",
+    "normal_range_male": [
+      80,
+      100
+    ],
+    "normal_range_female": [
+      80,
+      100
+    ],
+    "high_means": "Red blood cells are larger than normal — could be from vitamin B12 or folate deficiency.",
+    "low_means": "Red blood cells are smaller than normal — often from iron deficiency."
+  },
+  {
+    "test_name": "MCH",
+    "aliases": [
+      "Mean Corpuscular Hemoglobin"
+    ],
+    "category": "CBC",
+    "what_it_measures": "The average amount of hemoglobin in each red blood cell.",
+    "unit": "pg",
+    "normal_range_male": [
+      27,
+      32
+    ],
+    "normal_range_female": [
+      27,
+      32
+    ],
+    "high_means": "May indicate vitamin B12 or folate deficiency.",
+    "low_means": "May indicate iron deficiency anemia."
+  },
+  {
+    "test_name": "MCHC",
+    "aliases": [
+      "Mean Corpuscular Hemoglobin Concentration"
+    ],
+    "category": "CBC",
+    "what_it_measures": "The average concentration of hemoglobin in your red blood cells.",
+    "unit": "g/dL",
+    "normal_range_male": [
+      32,
+      36
+    ],
+    "normal_range_female": [
+      32,
+      36
+    ],
+    "high_means": "Hereditary spherocytosis or autoimmune hemolytic anemia (rare).",
+    "low_means": "Iron deficiency anemia or thalassemia."
+  },
+  {
+    "test_name": "RDW-CV",
+    "aliases": [
+      "RDW",
+      "Red Cell Distribution Width"
+    ],
+    "category": "CBC",
+    "what_it_measures": "How much variation there is in the size of your red blood cells.",
+    "unit": "%",
+    "normal_range_male": [
+      11.5,
+      14.5
+    ],
+    "normal_range_female": [
+      11.5,
+      14.5
+    ],
+    "high_means": "Red blood cells vary widely in size — often seen in iron deficiency or mixed anemias.",
+    "low_means": "Usually normal and not clinically significant."
+  },
+  {
+    "test_name": "ESR",
+    "aliases": [
+      "Erythrocyte Sedimentation Rate",
+      "Sed Rate"
+    ],
+    "category": "CBC",
+    "what_it_measures": "How quickly red blood cells settle — a marker of inflammation in the body.",
+    "unit": "mm/hr",
+    "normal_range_male": [
+      0,
+      15
+    ],
+    "normal_range_female": [
+      0,
+      20
+    ],
+    "high_means": "Inflammation somewhere in the body — could be from infection, autoimmune disease, or cancer.",
+    "low_means": "Usually normal. Very low values are rarely clinically significant."
+  },
+  {
+    "test_name": "Neutrophils",
+    "aliases": [
+      "Neutrophil %",
+      "Neutrophil Count"
+    ],
+    "category": "CBC - Differential",
+    "what_it_measures": "The main type of white blood cell that fights bacterial infections.",
+    "unit": "%",
+    "normal_range_male": [
+      40,
+      70
+    ],
+    "normal_range_female": [
+      40,
+      70
+    ],
+    "high_means": "Bacterial infection, inflammation, or stress.",
+    "low_means": "Viral infection, certain medications, or bone marrow problems."
+  },
+  {
+    "test_name": "Lymphocytes",
+    "aliases": [
+      "Lymphocyte %",
+      "Lymphocyte Count"
+    ],
+    "category": "CBC - Differential",
+    "what_it_measures": "White blood cells important for fighting viral infections and producing antibodies.",
+    "unit": "%",
+    "normal_range_male": [
+      20,
+      40
+    ],
+    "normal_range_female": [
+      20,
+      40
+    ],
+    "high_means": "Viral infection (e.g., dengue, COVID), chronic infection, or lymphoma.",
+    "low_means": "HIV/AIDS, steroid use, or autoimmune diseases."
+  },
+  {
+    "test_name": "Monocytes",
+    "aliases": [
+      "Monocyte %"
+    ],
+    "category": "CBC - Differential",
+    "what_it_measures": "White blood cells that help fight chronic infections and remove dead cells.",
+    "unit": "%",
+    "normal_range_male": [
+      2,
+      8
+    ],
+    "normal_range_female": [
+      2,
+      8
+    ],
+    "high_means": "Chronic infection (e.g., TB), autoimmune disease, or recovery from infection.",
+    "low_means": "Rarely significant on its own."
+  },
+  {
+    "test_name": "Eosinophils",
+    "aliases": [
+      "Eosinophil %"
+    ],
+    "category": "CBC - Differential",
+    "what_it_measures": "White blood cells involved in fighting parasites and allergic reactions.",
+    "unit": "%",
+    "normal_range_male": [
+      1,
+      4
+    ],
+    "normal_range_female": [
+      1,
+      4
+    ],
+    "high_means": "Allergies, asthma, parasitic infection (worms), or drug reactions.",
+    "low_means": "Usually normal."
+  },
+  {
+    "test_name": "Basophils",
+    "aliases": [
+      "Basophil %"
+    ],
+    "category": "CBC - Differential",
+    "what_it_measures": "The rarest white blood cells, involved in allergic and inflammatory responses.",
+    "unit": "%",
+    "normal_range_male": [
+      0,
+      1
+    ],
+    "normal_range_female": [
+      0,
+      1
+    ],
+    "high_means": "Allergic reactions, chronic inflammation, or very rarely blood disorders.",
+    "low_means": "Usually normal."
+  },
+  {
+    "test_name": "Total Cholesterol",
+    "aliases": [
+      "Cholesterol",
+      "TC"
+    ],
+    "category": "LIPID",
+    "what_it_measures": "The total amount of cholesterol in your blood (good + bad combined).",
+    "unit": "mg/dL",
+    "normal_range_male": [
+      0,
+      200
+    ],
+    "normal_range_female": [
+      0,
+      200
+    ],
+    "high_means": "Increased risk of heart disease and stroke. Diet and lifestyle changes may help.",
+    "low_means": "Rarely a concern. Very low levels may be linked to malnutrition or liver problems."
+  },
+  {
+    "test_name": "Triglycerides",
+    "aliases": [
+      "TG",
+      "Triglyceride"
+    ],
+    "category": "LIPID",
+    "what_it_measures": "A type of fat in your blood. High levels increase heart disease risk.",
+    "unit": "mg/dL",
+    "normal_range_male": [
+      0,
+      150
+    ],
+    "normal_range_female": [
+      0,
+      150
+    ],
+    "high_means": "Increased heart disease risk. Often linked to diet, obesity, diabetes, or excessive alcohol.",
+    "low_means": "Usually not a concern."
+  },
+  {
+    "test_name": "HDL Cholesterol",
+    "aliases": [
+      "HDL",
+      "Good Cholesterol"
+    ],
+    "category": "LIPID",
+    "what_it_measures": "The 'good' cholesterol that removes bad cholesterol from your arteries.",
+    "unit": "mg/dL",
+    "normal_range_male": [
+      40,
+      60
+    ],
+    "normal_range_female": [
+      50,
+      70
+    ],
+    "high_means": "Good! Higher HDL is protective against heart disease.",
+    "low_means": "Increased heart disease risk. Exercise and healthy fats can help raise it."
+  },
+  {
+    "test_name": "LDL Cholesterol",
+    "aliases": [
+      "LDL",
+      "Bad Cholesterol"
+    ],
+    "category": "LIPID",
+    "what_it_measures": "The 'bad' cholesterol that builds up in artery walls and causes blockages.",
+    "unit": "mg/dL",
+    "normal_range_male": [
+      0,
+      100
+    ],
+    "normal_range_female": [
+      0,
+      100
+    ],
+    "high_means": "Increased risk of heart attack and stroke. May need statins and diet changes.",
+    "low_means": "Generally good. Very low levels are rarely concerning."
+  },
+  {
+    "test_name": "VLDL Cholesterol",
+    "aliases": [
+      "VLDL"
+    ],
+    "category": "LIPID",
+    "what_it_measures": "Very low density lipoprotein — carries triglycerides in the blood.",
+    "unit": "mg/dL",
+    "normal_range_male": [
+      5,
+      40
+    ],
+    "normal_range_female": [
+      5,
+      40
+    ],
+    "high_means": "High triglyceride levels. Linked to heart disease risk.",
+    "low_means": "Usually normal."
+  },
+  {
+    "test_name": "Fasting Blood Sugar",
+    "aliases": [
+      "FBS",
+      "Fasting Glucose",
+      "Fasting Blood Glucose"
+    ],
+    "category": "DIABETES",
+    "what_it_measures": "Your blood sugar level after not eating for 8-12 hours. Used to screen for diabetes.",
+    "unit": "mg/dL",
+    "normal_range_male": [
+      70,
+      100
+    ],
+    "normal_range_female": [
+      70,
+      100
+    ],
+    "high_means": "Pre-diabetes (100-125) or diabetes (>125). Needs diet control and possibly medication.",
+    "low_means": "Hypoglycemia — you may feel dizzy, shaky, or sweaty. Eat something sugary immediately."
+  },
+  {
+    "test_name": "HbA1c",
+    "aliases": [
+      "Glycated Hemoglobin",
+      "A1C",
+      "Glycosylated Hemoglobin"
+    ],
+    "category": "DIABETES",
+    "what_it_measures": "Your average blood sugar over the last 2-3 months. The gold standard for diabetes monitoring.",
+    "unit": "%",
+    "normal_range_male": [
+      4.0,
+      5.6
+    ],
+    "normal_range_female": [
+      4.0,
+      5.6
+    ],
+    "high_means": "Pre-diabetes (5.7-6.4%) or diabetes (>6.5%). Indicates poor blood sugar control over time.",
+    "low_means": "Blood sugar has been well controlled. Very low values may indicate frequent hypoglycemia."
+  },
+  {
+    "test_name": "Creatinine",
+    "aliases": [
+      "Serum Creatinine",
+      "Creat"
+    ],
+    "category": "KIDNEY",
+    "what_it_measures": "A waste product filtered by your kidneys. Shows how well your kidneys are working.",
+    "unit": "mg/dL",
+    "normal_range_male": [
+      0.7,
+      1.3
+    ],
+    "normal_range_female": [
+      0.6,
+      1.1
+    ],
+    "high_means": "Your kidneys may not be filtering properly. Could indicate kidney disease or dehydration.",
+    "low_means": "Usually normal. Very low levels may be seen in low muscle mass."
+  },
+  {
+    "test_name": "Blood Urea Nitrogen",
+    "aliases": [
+      "BUN",
+      "Urea",
+      "Blood Urea"
+    ],
+    "category": "KIDNEY",
+    "what_it_measures": "A waste product from protein breakdown, filtered by the kidneys.",
+    "unit": "mg/dL",
+    "normal_range_male": [
+      7,
+      20
+    ],
+    "normal_range_female": [
+      7,
+      20
+    ],
+    "high_means": "Kidney problems, dehydration, or high protein diet.",
+    "low_means": "Liver disease or malnutrition (rare)."
+  },
+  {
+    "test_name": "SGPT (ALT)",
+    "aliases": [
+      "ALT",
+      "SGPT",
+      "Alanine Aminotransferase"
+    ],
+    "category": "LIVER",
+    "what_it_measures": "An enzyme found mainly in the liver. High levels suggest liver damage.",
+    "unit": "U/L",
+    "normal_range_male": [
+      7,
+      56
+    ],
+    "normal_range_female": [
+      7,
+      45
+    ],
+    "high_means": "Liver inflammation or damage — from hepatitis, fatty liver, alcohol, or medications.",
+    "low_means": "Usually normal."
+  },
+  {
+    "test_name": "SGOT (AST)",
+    "aliases": [
+      "AST",
+      "SGOT",
+      "Aspartate Aminotransferase"
+    ],
+    "category": "LIVER",
+    "what_it_measures": "An enzyme found in liver, heart, and muscles. High levels may indicate tissue damage.",
+    "unit": "U/L",
+    "normal_range_male": [
+      10,
+      40
+    ],
+    "normal_range_female": [
+      10,
+      35
+    ],
+    "high_means": "Liver disease, heart problems, or muscle injury.",
+    "low_means": "Usually normal."
+  },
+  {
+    "test_name": "TSH",
+    "aliases": [
+      "Thyroid Stimulating Hormone",
+      "Thyrotropin"
+    ],
+    "category": "THYROID",
+    "what_it_measures": "Controls your thyroid gland. Shows if your thyroid is overactive or underactive.",
+    "unit": "mIU/L",
+    "normal_range_male": [
+      0.4,
+      4.0
+    ],
+    "normal_range_female": [
+      0.4,
+      4.0
+    ],
+    "high_means": "Hypothyroidism (underactive thyroid) — may cause weight gain, fatigue, and feeling cold.",
+    "low_means": "Hyperthyroidism (overactive thyroid) — may cause weight loss, anxiety, and rapid heartbeat."
+  }
+]
