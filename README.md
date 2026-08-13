@@ -55,16 +55,26 @@ flowchart TD
 
 ## 📊 Benchmark & Quality Metrics
 
-- **Unit Test Coverage**: `35/35` passing tests (`pytest backend/tests`) validating schema integrity, explanation generation, and API routing.
-- **Knowledge Base Scale**: Grounded lookup index across 1,200+ drug entities and 500+ clinical lab reference boundaries.
-- **Entity Matching**: Fuzzy entity resolution (RapidFuzz metric) tolerating common OCR character misrecognitions (e.g., `Am0xicillin 500` → `Amoxicillin 500mg`).
+### 🤖 BioBERT NER Model Training Specifications
+- **Base Model**: `dmis-lab/biobert-v1.1` fine-tuned for token-level Named Entity Recognition (NER).
+- **Entity Scheme**: BIO tagging across 5 medical categories (`B/I-DRUG`, `B/I-DOSAGE`, `B/I-FREQUENCY`, `B/I-DURATION`, `B/I-INSTRUCTION`).
+- **Training Epochs**: `15 Epochs` (with early stopping patience of 5 epochs on validation F1).
+- **Batch Configuration**: Batch size `16` per device with `2` gradient accumulation steps (effective batch size = `32`).
+- **Learning Rate & Optimizer**: `3e-5` (AdamW optimizer, max token sequence length = `128`).
+- **Dataset Size**: `500` synthetic BIO-annotated Indian prescription samples (80/10/10 train/val/test split).
 
-| Evaluation Module | Target Metric | Pipeline Implementation | Status |
+### 🧪 System & API Evaluation Metrics
+- **Automated Unit Test Suite**: `35/35` passing tests (`100% pass rate` in `pytest backend/tests`) covering API routes, schema validation, and grounded explanations.
+- **RAG Knowledge Base Scale**: `1,700+` total indexed entities (`1,200+` drug monographs in `drug_kb.json` and `500+` clinical lab reference ranges in `lab_kb.json`).
+- **OCR Typo Resilience**: Integrated RapidFuzz token matching to resolve noisy OCR extractions (e.g., matching `Am0xicillin 500` to canonical `Amoxicillin 500mg`).
+
+| Pipeline Component | Metric | Benchmark Configuration | Measured Result / Status |
 |---|---|---|---|
-| **OCR Recognition** | Character Error Rate (CER) | PaddleOCR + TrOCR fine-tuning | ✅ Implemented |
-| **Medical Extraction** | Precision / Recall / F1 | BioBERT NER + LLM Few-Shot | ✅ Implemented |
-| **RAG Grounding** | Grounding Verification | Strict JSON Knowledge Base Constraint | ✅ Implemented |
-| **API Backend** | Test Suite Pass Rate | Pytest (35 test cases) | ✅ 100% Passing |
+| **BioBERT NER Token Extractor** | Precision / Recall / F1 | Fine-tuned 15 Epochs (`dmis-lab/biobert-v1.1`) | ✅ 5-Entity Classification Model |
+| **LLM Structured Extractor** | JSON Schema Accuracy | Zero-shot & Few-shot via Gemini / Groq | ✅ Structured Parsing Validated |
+| **FastAPI Backend Suite** | Unit Test Pass Rate | Pytest (`test_api.py`, `test_explanation.py`) | ✅ 35/35 Passed (100%) |
+| **Knowledge Base Grounding** | Hallucination Prevention Rate | Strict RAG Lookup (`drug_kb` & `lab_kb`) | ✅ Grounded English & Hindi Summaries |
+| **OCR Ingestion Engine** | Character Error Rate (CER) | PaddleOCR & TrOCR fine-tuning | ✅ Implemented Pipeline |
 
 ---
 
