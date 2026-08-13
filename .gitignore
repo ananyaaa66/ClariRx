@@ -57,4 +57,5 @@ frontend/dist/
 # Logs
 *.log
 backend/ocr/logs/
-backend/extraction/logs/
+backend/extraction/logs/*.log
+!backend/extraction/logs/ner_classification_report.txt

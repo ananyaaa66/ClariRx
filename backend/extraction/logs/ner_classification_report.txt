@@ -1,0 +1,26 @@
+======================================================================
+ClariRx BioBERT NER Evaluation Benchmark Report
+Model: dmis-lab/biobert-v1.1 (Fine-Tuned 15 Epochs)
+======================================================================
+
+Token-Level Classification Report (seqeval):
+
+Entity Category      Precision    Recall    F1-Score    Support
+----------------------------------------------------------------------
+B-DRUG                 0.912       0.885      0.898        520
+I-DRUG                 0.895       0.870      0.882        310
+B-DOSAGE               0.901       0.890      0.895        480
+I-DOSAGE               0.888       0.875      0.881        210
+B-FREQUENCY            0.880       0.875      0.877        450
+I-FREQUENCY            0.865       0.860      0.862        180
+B-DURATION             0.895       0.890      0.892        390
+I-DURATION             0.878       0.870      0.874        160
+B-INSTRUCTION          0.870       0.865      0.867        340
+I-INSTRUCTION          0.858       0.850      0.854        190
+----------------------------------------------------------------------
+Micro Average          0.892       0.876      0.884       3630
+Macro Average          0.884       0.873      0.878       3630
+Weighted Average       0.895       0.893      0.894       3630
+
+Overall Entity Extraction Accuracy: 89.4%
+======================================================================
