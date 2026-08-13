@@ -57,3 +57,4 @@ frontend/dist/
 # Logs
 *.log
 backend/ocr/logs/
+backend/extraction/logs/

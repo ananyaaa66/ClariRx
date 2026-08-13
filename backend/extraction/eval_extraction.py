@@ -431,7 +431,7 @@ def generate_report(
     report_text = "\n".join(lines)
 
     os.makedirs(output_path.parent, exist_ok=True)
-    with open(output_path, "w") as f:
+    with open(output_path, "w", encoding="utf-8") as f:
         f.write(report_text)
 
     print(f"\n📄 Report saved to: {output_path}")
