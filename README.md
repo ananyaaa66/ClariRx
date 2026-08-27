@@ -2,7 +2,7 @@
 
 > **Demystifying medical prescriptions and lab reports — in plain English & Hindi.**
 
-[![Backend Tests](https://img.shields.io/badge/pytest-35%2F35%20passing-brightgreen.svg)](file:///c:/Users/Ananya%20Singh/OneDrive/ドキュメント/GitHub/ClariRx/backend/tests)
+[![Backend Tests](https://img.shields.io/badge/pytest-51%2F51%20passing-brightgreen.svg)](file:///c:/Users/Ananya%20Singh/OneDrive/ドキュメント/GitHub/ClariRx/backend/tests)
 [![Python](https://img.shields.io/badge/Python-3.13-3776AB.svg?logo=python&logoColor=white)](https://www.python.org/)
 [![FastAPI](https://img.shields.io/badge/FastAPI-0.110+-009688.svg?logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com/)
 [![React](https://img.shields.io/badge/React-18.0-61DAFB.svg?logo=react&logoColor=black)](https://reactjs.org/)
@@ -64,7 +64,7 @@ flowchart TD
 - **Dataset Size**: `500` synthetic BIO-annotated Indian prescription samples (80/10/10 train/val/test split).
 
 ### 🧪 System & API Evaluation Metrics
-- **Automated Unit Test Suite**: `35/35` passing tests (`100% pass rate` in `pytest backend/tests`) covering API routes, schema validation, and grounded explanations.
+- **Automated Unit Test Suite**: `51/51` passing tests (`100% pass rate` in `pytest backend/tests`) covering API routes, schema validation, grounded explanations, OCR pipelines, and extraction logic.
 - **RAG Knowledge Base Scale**: `1,700+` total indexed entities (`1,200+` drug monographs in `drug_kb.json` and `500+` clinical lab reference ranges in `lab_kb.json`).
 - **OCR Typo Resilience**: Integrated RapidFuzz token matching to resolve noisy OCR extractions (e.g., matching `Am0xicillin 500` to canonical `Amoxicillin 500mg`).
 
@@ -72,7 +72,7 @@ flowchart TD
 |---|---|---|---|
 | **BioBERT NER Token Extractor** | Precision / Recall / F1 | Fine-tuned 15 Epochs (`dmis-lab/biobert-v1.1`) | ✅ 5-Entity Classification Model |
 | **LLM Structured Extractor** | JSON Schema Accuracy | Zero-shot & Few-shot via Gemini / Groq | ✅ Structured Parsing Validated |
-| **FastAPI Backend Suite** | Unit Test Pass Rate | Pytest (`test_api.py`, `test_explanation.py`) | ✅ 35/35 Passed (100%) |
+| **FastAPI Backend Suite** | Unit Test Pass Rate | Pytest (`test_api.py`, `test_explanation.py`, `test_ocr.py`, `test_extraction.py`) | ✅ 51/51 Passed (100%) |
 | **Knowledge Base Grounding** | Hallucination Prevention Rate | Strict RAG Lookup (`drug_kb` & `lab_kb`) | ✅ Grounded English & Hindi Summaries |
 | **OCR Ingestion Engine** | Character Error Rate (CER) | PaddleOCR & TrOCR fine-tuning | ✅ Implemented Pipeline |
 
@@ -109,7 +109,7 @@ ClariRx/
 │   │   └── eval_extraction.py# Benchmark Evaluation Tool
 │   ├── knowledge_base/      # Curated Drug & Lab JSON Databases
 │   ├── reminders/           # APScheduler Background Task Management
-│   └── tests/               # Pytest Test Suite (35 tests)
+│   └── tests/               # Pytest Test Suite (51 tests)
 └── frontend/
     ├── src/
     │   ├── components/      # FileUpload, ResultsDashboard, ResultCard, Loader

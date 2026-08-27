@@ -1,0 +1,40 @@
+======================================================================
+ClariRx Extraction Evaluation Report
+Method: BIOBERT
+======================================================================
+
+──────────────────────────────────────────────────────────────────────
+PRESCRIPTION EXTRACTION
+──────────────────────────────────────────────────────────────────────
+  Test cases:        5
+  Expected items:    12
+  Predicted items:   0
+
+  Drug Name Matching (fuzzy):
+    Matches:    0
+    Precision:  0.0000
+    Recall:     0.0000
+    F1-Score:   0.0000
+
+  Per-Case Breakdown:
+    Simple 2-drug prescription               | Drug: 0/2  Freq: 0/2  Dur: 0/2
+    3-drug with OCR typos                    | Drug: 0/3  Freq: 0/3  Dur: 0/3
+    Single drug SOS                          | Drug: 0/1  Freq: 0/1  Dur: 0/1
+    Complex multi-line                       | Drug: 0/4  Freq: 0/4  Dur: 0/4
+    Messy OCR with noise                     | Drug: 0/2  Freq: 0/2  Dur: 0/2
+
+──────────────────────────────────────────────────────────────────────
+LAB REPORT EXTRACTION
+──────────────────────────────────────────────────────────────────────
+  Test cases:        2
+  Expected items:    6
+  Predicted items:   0
+
+  Test Name Matching (fuzzy):
+    Matches:    0
+    Precision:  0.0000
+    Recall:     0.0000
+    F1-Score:   0.0000
+    Abnormality Accuracy: 0.0000
+
+======================================================================
