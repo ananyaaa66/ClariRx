@@ -1,6 +1,10 @@
 import os
 import json
-import google.generativeai as genai
+import warnings
+with warnings.catch_warnings():
+    warnings.simplefilter("ignore", category=FutureWarning)
+    warnings.simplefilter("ignore", category=UserWarning)
+    import google.generativeai as genai
 from groq import Groq
 from pydantic import BaseModel, Field
 from typing import List, Optional
