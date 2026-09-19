@@ -37,27 +37,26 @@ async def upload_image(
         logger.error(f"Failed to save uploaded file: {e}")
         raise HTTPException(status_code=500, detail="Failed to save uploaded file")
 
-    try:
-        # 1. Run OCR
-        # We need an OCR function that takes an image path and returns text.
-        # Let's import the one built in Phase 1 or use a dummy for now if it requires full model load.
+        # 1. Run OCR pipeline (PaddleOCR -> LLM Vision fallback)
+        raw_text = ""
         try:
-            from ocr.inference import run_ocr
-            raw_text = run_ocr(tmp_path)
-        except ImportError:
-            # Fallback if inference isn't fully set up yet
-            logger.warning("ocr.inference not found or failed to load. Using mock OCR text.")
-            if doc_type == "prescription":
-                raw_text = "Rx\n1. Tab Amoxicillin 500mg 1-0-1 after food 5 days\n2. Tab Paracetamol 650mg SOS"
-            else:
-                raw_text = "Complete Blood Count\nHaemoglobin 14.2 g/dL\nWBC Count 11500 cells/uL"
+            from ocr.paddleocr_pipeline import run_paddleocr
+            raw_text = run_paddleocr(tmp_path)
+        except Exception as e1:
+            logger.warning(f"PaddleOCR pipeline unavailable or failed: {e1}")
+            try:
+                from ocr.llm_vision_pipeline import run_llm_vision
+                raw_text = run_llm_vision(tmp_path)
+            except Exception as e2:
+                logger.warning(f"LLM Vision pipeline failed: {e2}")
 
-        if not raw_text.strip():
+        if not raw_text or not raw_text.strip():
             return UploadResponse(
                 success=False,
                 doc_type=DocType(doc_type),
                 raw_text="",
-                error_message="OCR failed to extract any text from the image."
+                items=[],
+                error_message="OCR failed to extract any readable text from the image."
             )
 
         # 2. Extract Entities

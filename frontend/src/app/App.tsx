@@ -231,25 +231,21 @@ export default function App() {
         setProcessingStage(3);
         await new Promise((r) => setTimeout(r, 600));
 
-        if (resultMeds.length > 0) {
-          setMedicines(resultMeds);
-        } else {
-          setMedicines(mockMedicines);
-        }
+        setMedicines(resultMeds);
 
         setPatient({
           name: file.name.replace(/\.[^/.]+$/, "") || "Patient",
-          age: "Uploaded File",
+          age: resultMeds.length > 0 ? "Uploaded File" : "No medicines found",
           date: new Date().toLocaleDateString("en-GB", { day: "numeric", month: "short", year: "numeric" }),
           doctor: "ClariRx AI Pipeline",
         });
       } catch (err) {
-        console.warn("Backend server offline or endpoint error. Using fallback simulation:", err);
+        console.warn("Backend server endpoint error or invalid document:", err);
         setProcessingStage(2);
-        await new Promise((r) => setTimeout(r, 1500));
+        await new Promise((r) => setTimeout(r, 800));
         setProcessingStage(3);
-        await new Promise((r) => setTimeout(r, 1500));
-        setMedicines(mockMedicines);
+        await new Promise((r) => setTimeout(r, 800));
+        setMedicines([]);
       } finally {
         setIsProcessing(false);
         setProcessingStage(0);
